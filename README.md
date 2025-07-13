@@ -30,10 +30,6 @@ This project demonstrates:
 ├── postcss.config.js
 └── vite.config.ts
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Getting Started
