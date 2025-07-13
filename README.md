@@ -14,21 +14,23 @@ This project demonstrates:
 
 ## 📂 Project Structure
 
+```
 .
 ├── public/
-│ ├── icons/
-│ │ ├── down-split-arrow.png
-│ │ ├── dots.png
-│ │ └── logo.png
+│   ├── icons/
+│   │   ├── down-split-arrow.png
+│   │   ├── dots.png
+│   │   └── logo.png
 ├── src/
-│ ├── App.tsx
-│ ├── main.tsx
-│ ├── icons/ # Local icon images
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── icons/  # Local icon images
 ├── package.json
 ├── tsconfig.json
 ├── tailwind.config.js
 ├── postcss.config.js
 └── vite.config.ts
+```
 
 ---
 
@@ -39,97 +41,112 @@ This project demonstrates:
 ```bash
 git clone https://github.com/your-username/web-creator-spreadsheet.git
 cd web-creator-spreadsheet
-2️⃣ Install dependencies
-bash
-Copy
-Edit
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+```bash
 npm install
-3️⃣ Start the development server
-bash
-Copy
-Edit
+```
+
+---
+
+### 3️⃣ Start the development server
+
+```bash
 npm run dev
-Open http://localhost:5173 in your browser.
+```
 
-✅ Available Scripts
-Command	Description
-npm run dev	Start Vite dev server
-npm run build	Build for production
-npm run preview	Preview the production build locally
-npm run lint	Run ESLint checks
-npm run type-check	Check TypeScript types
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-🗂️ Features
-Cell editing: Click or navigate with keyboard to edit.
+---
 
-Keyboard navigation: Use Arrow keys, Enter, Escape to edit cells.
+## ✅ Available Scripts
 
-Dropdowns: Status & Priority are inline <select> dropdowns.
+| Command             | Description                           |
+|---------------------|---------------------------------------|
+| `npm run dev`       | Start Vite dev server                 |
+| `npm run build`     | Build for production                  |
+| `npm run preview`   | Preview the production build locally  |
+| `npm run lint`      | Run ESLint checks                     |
+| `npm run type-check`| Check TypeScript types                |
 
-Sorting: Click column headers to sort ascending/descending.
+---
 
-Show/hide columns: Use the toolbar Hide fields toggle.
+## 🗂️ Features
 
-Toolbar actions: Import/Export (CSV/JSON) and placeholder AI buttons.
+- **Cell editing:** Click or navigate with keyboard to edit.
+- **Keyboard navigation:** Use `Arrow` keys, `Enter`, `Escape` to edit cells.
+- **Dropdowns:** `Status` & `Priority` are inline `<select>` dropdowns.
+- **Sorting:** Click column headers to sort ascending/descending.
+- **Show/hide columns:** Use the toolbar `Hide fields` toggle.
+- **Toolbar actions:** Import/Export (CSV/JSON) and placeholder AI buttons.
+- **Add rows:** Use the floating `+` button.
+- **Import CSV:** Drag & drop or click to upload a `.csv` file.
+- **Export:** Download spreadsheet data as `.csv` or `.json`.
+- **Lucide icons:** Modern icon set for clear UI visuals.
+- **Responsive:** Clean styling with Tailwind CSS.
 
-Add rows: Use the floating + button.
+---
 
-Import CSV: Drag & drop or click to upload a .csv file.
+## 📦 Dependencies
 
-Export: Download spreadsheet data as .csv or .json.
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
 
-Lucide icons: Modern icon set for clear UI visuals.
+---
 
-Responsive: Clean styling with Tailwind CSS.
+## 🖼️ Local Images
 
-📦 Dependencies
-React
-
-TypeScript
-
-Vite
-
-Tailwind CSS
-
-Lucide React
-
-🖼️ Local Images
 Make sure you have:
+- `down-split-arrow.png`
+- `dots.png`
+- `logo.png`
 
-down-split-arrow.png
+inside your `src/icons/` folder. Update import paths in `App.tsx` if needed.
 
-dots.png
+---
 
-logo.png
+## ⚙️ Lint & Type Check
 
-inside your src/icons/ folder. Update import paths in App.tsx if needed.
-
-⚙️ Lint & Type Check
 Run ESLint:
 
-bash
-Copy
-Edit
+```bash
 npm run lint
+```
+
 Check TypeScript types:
 
-bash
-Copy
-Edit
+```bash
 npm run type-check
-✏️ Customization
-Edit initialData in App.tsx to change default rows.
+```
 
-Extend toolbar actions to connect real AI or server-side features.
+---
 
-Style more deeply with Tailwind or your preferred design system.
+## ✏️ Customization
 
-Connect to a database or API for persistent storage.
+- Edit `initialData` in `App.tsx` to change default rows.
+- Extend toolbar actions to connect real AI or server-side features.
+- Style more deeply with Tailwind or your preferred design system.
+- Connect to a database or API for persistent storage.
 
-📜 License
+---
+
+## 📜 License
+
 This project is for demonstration and educational purposes only.
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
+
 Open issues, fork this repo, and submit PRs if you’d like to improve it!
 
-Built with ❤️ using React, TypeScript & Tailwind CSS
+---
+
+**Built with ❤️ using React, TypeScript & Tailwind CSS**
